@@ -1,0 +1,4 @@
+frames/
+adaptive_extract_frames/
+audio.mp3
+adaptive_output.avi

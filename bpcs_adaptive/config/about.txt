@@ -1,0 +1,1 @@
+Adaptive BPCS lab. Students calculate alpha prime values, apply checkerboard conjugation, derive a dynamic threshold, embed data, and recover the hidden message.

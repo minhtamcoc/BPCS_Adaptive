@@ -1,0 +1,11 @@
+Lab-specific instructor notes.
+
+This lab follows the native Labtainer grading format. The student should
+perform the adaptive BPCS workflow manually.
+
+Expected checks:
+cw1: threshold_report.txt contains final_threshold.
+cw2: message_blocks.json records data block alpha values and conjugation.
+cw3: adaptive_position.json records adaptive BPCS embedding metadata.
+cw4: .bash_history shows ffmpeg extraction into adaptive_extract_frames.
+cw5: recovered_adaptive_secret.txt contains the expected secret.

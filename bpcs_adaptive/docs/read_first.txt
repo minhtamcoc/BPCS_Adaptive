@@ -1,0 +1,17 @@
+Adaptive BPCS + Conjugation Lab
+
+This lab practices adaptive threshold selection and checkerboard
+conjugation for BPCS video steganography.
+
+Main workflow:
+1. Save video metadata and extract frames/audio.
+2. Run adaptive analysis:
+   python3 adaptive_encode.py --analyze
+3. Embed using adaptive BPCS:
+   python3 adaptive_encode.py --embed
+4. Extract frames from adaptive_output.avi.
+5. Decode the adaptive secret:
+   python3 adaptive_decode.py
+
+Use Labtainer checkwork from the Labtainer terminal to view cw1 through cw5.
+Use stoplab bpcs_adaptive to save the .lab result archive.
