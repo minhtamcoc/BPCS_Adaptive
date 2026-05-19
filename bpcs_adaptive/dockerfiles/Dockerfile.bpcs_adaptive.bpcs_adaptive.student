@@ -9,7 +9,7 @@ ARG password
 ARG apt_source
 ARG version
 
-LABEL version=$version
+LABEL version=$version`nLABEL base=labtainers/labtainer.base2.739eee77f8d3`nLABEL description="Labtainer base image from ubuntu-systemd Image version 2, ubuntu20.04"
 LABEL base="$registry/labtainer.base2.739eee77f8d3"
 ENV APT_SOURCE $apt_source
 RUN /usr/bin/apt-source.sh
